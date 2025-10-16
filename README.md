@@ -1,15 +1,15 @@
-#IETF124 HP-WAN Side meeting 
+# IETF124 HP-WAN Side meeting 
 
 We're planning to have a side meeting at IETF 124: High-performance WAN. We're planning to have a side meeting at IETF 124: High-performance WAN. 
 This side meeting will focus on the HP-WAN Framework, HP-WAN Hackathon, PolKA and following up the discussions upon IETF123 side meeting.
 
-#Time: Tuesday, November 4 at 09:45~10:45 (Montreal)
+* Time: Tuesday, November 4 at 09:45~10:45 (Montreal)
 
-#Location: Room McGill
+* Location: Room McGill
 
-#IETF Webex: https://ietf.webex.com/meet/sidemeetings1
+* IETF Webex: https://ietf.webex.com/meet/sidemeetings1
 
-Meeting Host: Daniel Huang
+* Meeting Host: Daniel Huang
 
 The primary agenda is shown as below.
 
