@@ -15,9 +15,9 @@ The primary agenda is shown as below.
 
 1,Note well, welcome statements, introduction and agenda bash. 5mins
 
-2,HP-WAN Hackathon, Daniel King, 10mins 
+2,HP-WAN Hackathon Plan, Daniel King, 10mins 
 
-3,HP-WAN Documents Updates (State-Of-The-Art and Framework), Quan Xiong, 10min
+3,HP-WAN Documents Updates (State-Of-The-Art and Framework), Quan Xiong, 10mins
 
 4,PolKA, Magnos Martinello,20mins
 
