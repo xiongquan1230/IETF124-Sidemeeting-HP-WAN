@@ -1,7 +1,7 @@
 # IETF124 HP-WAN Side meeting 
 
 We're planning to have a side meeting at IETF 124: High-performance WAN. We're planning to have a side meeting at IETF 124: High-performance WAN. 
-This side meeting will focus on the HP-WAN Framework, HP-WAN Hackathon, PolKA and following up the discussions upon IETF123 side meeting.
+This side meeting will focus on the HP-WAN Updates, HP-WAN Hackathon, PolKA and following up the discussions upon IETF123 side meeting.
 
 * Time: Tuesday, November 4 at AM 09:45~10:45 (Montreal)
 
