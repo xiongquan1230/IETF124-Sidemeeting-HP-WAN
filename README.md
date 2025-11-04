@@ -16,11 +16,11 @@ The primary agenda is shown as below.
 
 2,HP-WAN Hackathon Plan, Daniel King, 10mins 
 
-3,HP-WAN Documents Updates (State-Of-The-Art and Framework), Quan Xiong, 10mins
+3,HP-WAN Documents Updates (State-Of-Art and Framework), Quan Xiong, 10mins
 
 4,PolKA, Magnos Martinello,20mins
 
-5,Open Issues Discussion, 20min
+5,Open Issues Discussion, 20mins
 
 Related drafts:
 
