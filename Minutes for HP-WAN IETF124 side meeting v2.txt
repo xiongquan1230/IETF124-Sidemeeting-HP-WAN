@@ -1,0 +1,111 @@
+Minutes for HP-WAN IETF124 Side Meeting
+4 November, 09:45–10:45, Montreal
+
+Participants:
+
+Tim Chrown, Daniel King, Magnos Martinello, Tony, Everson Scherrer Borges,
+Hiroshika, Rafael Guimaraes, Daniel Huang, Quan Xiong, Ran Chen, Ran Pang,
+Min Xiao, Xueyan Song, Guangyu Zhao, Ruibo Han, Chenhao Ma, Tianyi Huang
+
+The agenda and notes are below.
+
+1. Note Well, welcome statements, introductions, and agenda bash (5 min)
+
+2. HP-WAN document updates (State of the Art and Framework)
+   Presenters: Quan Xiong (10 min)
+
+   Quan, Daniel King, and Daniel Huang provided an update on the two HP-WAN
+   documents.
+
+   Hiroshika: I also operate an audio-infrastructure research and education
+   network. Have you studied current operations and traffic engineering in
+   research and education networks?
+
+   Daniel King: Yes. As described in the state-of-the-art document, we have
+   authors who build and operate R&E networks. It reflects practice in North
+   America, Europe, and two Chinese networks, and the tools are applied both
+   offline and online. We would welcome a Japanese example and your scenarios.
+
+   Hiroshika: The orchestration or controller work is good, but partnerships
+   are based on MOUs across the community and depend on collaboration. I
+   suggest studying Layer-3 operations and traffic engineering, and
+   understanding mechanisms to control or align resources for activities.
+
+   Daniel King: The networks are operated separately at Layer 3 with end-to-end
+   services and connectivity. Orchestration, scheduling, and end-to-end
+   signaling may be required.
+
+3. HP-WAN Hackathon plan
+   Presenter: Daniel King (10 min)
+
+   Daniel King: Introduced current coding work and the plan for the HP-WAN
+   Hackathon at IETF125.
+
+   Hiroshika: Do you consider path configuration across multiple paths?
+   Signalling for path configuration could be a use case but is not included
+   in your Hackathon.
+
+   Daniel King: That is an interesting topic. I will talk to others to see if
+   they support it. We can discuss offline and move it to the mailing list.
+
+   Daniel King: IETF is a good community to implement. We spend time on theory
+   and documents, and we encourage people to write code and apply best practice.
+
+4. PolKA
+   Presenter: Magnos Martinello (20 min)
+
+   Magnos Martinello: Introduced PolKA and discussed future work to help with
+   HP-WAN.
+
+   Tony: Trafino chipsets are no longer available. What can be used to access
+   PolKA?
+
+   Magnos: There is time to deploy into a final switch. There are other options, too.
+
+   Daniel King: Would it be feasible to run path computation locally and
+   translate it into whatever chipset instruction set is available in each
+   forwarding domain? Do you see a hierarchical approach where one domain has
+   P4 and another has a different chipset? It would need hardware-agnostic
+   instructions.
+
+   Magnos Martinello: It can work similarly to MPLS. There are gateways to
+   translate and encapsulate from one domain to another, so the network can
+   run PolKA natively.
+
+   Daniel King: Assume we monitor application latency and bandwidth requirements.
+   Endpoint application requests are a scenario in HP-WAN. We aim to standardise
+   application-to-network interaction, either directly to a distributed control
+   plane, via an intermediary device, or via an orchestrator/controller.
+
+   Daniel King: Do you have plans for the Hackathon? Could the PolKA team
+   contribute running code or input on the APIs used by your controller or
+   orchestrator?
+
+   Magnos Martinello: Not sure yet. We need to assess feasibility. We have
+   several simulation environments.
+
+   Daniel King: The Hackathon will happen at the next IETF. The purpose is to
+   demonstrate implementations and collaborate on prototyping IETF work.
+   Depending on the operator, this may be a use case or a potential architecture.
+   IETF has building blocks that can be applied. We want to present a clear use
+   case and demonstrate HP-WAN objective functions. There are third-party and
+   open-source tools. We aim to publish everything as part of the Hackathon and
+   integrate to show this.
+
+From chat:
+
+- Tim: Maybe we could get an ESnet review, e.g., from Eli Dart or Dale Carder.
+  Their network is also mentioned, and ESnet has a strong track record.
+- Everson Scherrer Borges: The PolKA approach works with eBPF, DPDK, and P4.
+  It can be used in any topology that supports those technologies.
+- Quan: A key HP-WAN challenge is scalability during resource reservation and
+  admission control. Consider how PolKA could help.
+
+Next steps:
+
+1. Organise a meeting next month to drill into HP-WAN Hackathon scenarios, and
+   continue discussion on the mailing list.
+   
+2. Look to publish the two HP-WAN documents.
+
+3. HP-WAN Hackathon at IETF125.
